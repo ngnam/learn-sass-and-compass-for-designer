@@ -1,7 +1,7 @@
 "Bạn có thể bất cứ điều gì, chỉ cần bạn có một lòng quyết tâm và không sợ những khó khắn,
 cho dù bạn là ai, bạn đang làm gì, bạn đang sống ở đâu..." ~~ ngnam
 
-# [ exbook: sass and compass for designer. (tiếng việt) ]()
+# [ Exbook: sass and compass for designer. (tiếng việt) ](https://github.com/ngnam/learn-sass-and-compass-for-designer)
 
 
 ## chương 1: bắt đầu sử dụng sass
@@ -244,48 +244,48 @@ download.php/76054/rubyinstaller-1.9.3-p194.exe sau đó cài đặt bình thư�
 
 			gem install compass
 
-	### Kiểm tra phiên bản hiện tại:
+### Kiểm tra phiên bản hiện tại:
 
-		sass -v 
+	sass -v 
 
-		compass -v
+	compass -v
 
-	### Kiểm tra các phiên bản sass và compass đang có trên máy chủ:
+### Kiểm tra các phiên bản sass và compass đang có trên máy chủ:
 
-		gem list sass -a -r
+	gem list sass -a -r
 
-		gem list compass -a -r
+	gem list compass -a -r
 
-	### Cài đặt phiên bản cũ hơn:
+### Cài đặt phiên bản cũ hơn:
 
-		sudo gem install sass
+	sudo gem install sass
 
-		sass -v
+	sass -v
 
-		sudo gem install sass --pre
+	sudo gem install sass --pre
 
-		---------
+	---------
 
-		sudo gem install compass
+	sudo gem install compass
 
-		compass -v
+	compass -v
 
-		sudo gem install compass --pre
+	sudo gem install compass --pre
 
-	### Gỡ cài đặt
+### Gỡ cài đặt
 
-		gem uninstall sass --version versionnumber
-		
-		gem uninstall compass --version versionnumber
+	gem uninstall sass --version versionnumber
+	
+	gem uninstall compass --version versionnumber
 
 
-	### Tạo mới projects sass và  compass
+### Tạo mới projects sass và  compass
 
 	cd dir_project
 
 	compass create my-project
 
-	<img src="../images/my-project.png" alt="my-project" width="500" height="300">
+<img src="../images/my-project.png" alt="my-project" width="500" height="300">
 
 	- Thư mục .sass-cache chứa các file cache sau khi buid css. không cần dùng đến nó.
 
@@ -295,7 +295,7 @@ download.php/76054/rubyinstaller-1.9.3-p194.exe sau đó cài đặt bình thư�
 
 	- File config.rb cấu hình compass watch: 
 
-	### Graphical tools for working with Sass and Compass
+### Graphical tools for working with Sass and Compass
 
 		- [Scout app](http://mhs.github.com/scout-app)
 		
