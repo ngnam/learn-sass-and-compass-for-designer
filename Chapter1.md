@@ -285,7 +285,7 @@ download.php/76054/rubyinstaller-1.9.3-p194.exe sau đó cài đặt bình thư�
 
 	compass create my-project
 
-<img src="../images/my-project.png" alt="my-project" width="500" height="300">
+<img src="https://github.com/ngnam/learn-sass-and-compass-for-designer/blob/master/images/my-project.png" alt="my-project" width="500" height="300">
 
 	- Thư mục .sass-cache chứa các file cache sau khi buid css. không cần dùng đến nó.
 
