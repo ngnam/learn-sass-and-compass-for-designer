@@ -244,9 +244,7 @@ Với những người sử dụng windows, chỉ cần tải gói
 `cd dir_project`
 `compass create my-project`
 
-<img src="https://github.com/ngnam/learn-sass-and-compass-for-designer/blob/master/images/my-project.png" alt="my-project" width="500" height="300">
-
-![my-project](/content/images/2015/05/my-project.png)
+![my-project](/images/my-project.png)
 
 - Thư mục .sass-cache chứa các file cache sau khi buid css. không cần dùng đến nó.
 
