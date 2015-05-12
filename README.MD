@@ -1,10 +1,8 @@
-```bash
-"Bạn có thể bất cứ điều gì, chỉ cần bạn có một lòng quyết tâm và không sợ những khó khắn, cho dù bạn là ai, bạn đang làm gì, bạn đang sống ở đâu"
+# [ Exbook: sass and compass for designer. (tiếng việt) ](https://github.com/ngnam/learn-sass-and-compass-for-designer)
 
-"Sống ở đời không nhất thiết là phải sống được ít nhất 30 năm, mà là bạn đã cống hiến được gì cho xã hội."
-<i>Trích 60 câu phật học làm chấn động thiền niệm thế giới</i>
+<i>"Bạn có thể bất cứ điều gì, chỉ cần bạn có một lòng quyết tâm và không sợ những khó khắn, cho dù bạn là ai, bạn đang làm gì, bạn đang sống ở đâu"</i>
 
-```
+<i>"Sống ở đời không nhất thiết là phải sống được ít nhất 30 năm, mà là bạn đã cống hiến được gì cho xã hội."</i>
 
 ## Mục đích tôi dịch cuốn sách này:
 
