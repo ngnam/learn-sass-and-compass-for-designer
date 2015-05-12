@@ -4,6 +4,7 @@
 > *"Bạn có thể bất cứ điều gì, chỉ cần bạn có một lòng quyết tâm và không sợ những khó khắn, cho dù bạn là ai, bạn đang làm gì, bạn đang sống ở đâu"*
 
 > *"Sống ở đời không nhất thiết là phải sống được ít nhất 30 năm, mà là bạn đã cống hiến được gì cho xã hội."*
+
 #### # Mục đích tôi dịch cuốn sách này:
 
 1. Giúp tôi học sass để có thể viết css nhanh hơn.
@@ -30,7 +31,6 @@
 ##### [# Chương 1 - Bắt đầu với sass](https://github.com/ngnam/learn-sass-and-compass-for-designer/blob/master/Chapter1.md)
 ##### [# Chương 2 - Cài đặt Sass và compass trong Projects ](https://github.com/ngnam/learn-sass-and-compass-for-designer/blob/master/Chapter-2-Setting-Up-a-Sass-and-Compass-project.md)
 ##### [# Chương 3 - Làm quen với Nesting, Extend, Placeholders, and Mixins](https://github.com/ngnam/learn-sass-and-compass-for-designer/blob/master/Chapter-3-Lam-quen-voi-Nesting-Extend-Placeholders-and-Mixins.md)
-
-### Đang dịch ... 
+##### # Đang dịch ... 
 
 **Cảm ơn bạn đã quan tâm!**
