@@ -45,9 +45,9 @@
 
 ## Sử dụng biến (variables) - Chỉ khai báo một giá trị cho một biến.
 
-	Đã bao nhiêu lần, khi bạn làm việc với css trong một trang web, mà bạn cần khai báo lặp lại một giá trị màu sẳc nhiều lần? Có thể là 10 lần, 20 lần, chậm chí nhiều hơn nữa. Tuy nhiên, chúng ta có rất nhiều giá trị màu sắc, tôi thì thưòng xuyên ghi nhớ một đến ba giá trị hex để sử dụng nhanh chóng khi xây dựng 1 website. Với Sass chúng ta có thể khai báo các giá trị màu sắc đó bằng một biến. Và một biến chỉ được khai báo một giá trị mà thôi. 
+<p>Đã bao nhiêu lần, khi bạn làm việc với css trong một trang web, mà bạn cần khai báo lặp lại một giá trị màu sẳc nhiều lần? Có thể là 10 lần, 20 lần, chậm chí nhiều hơn nữa. Tuy nhiên, chúng ta có rất nhiều giá trị màu sắc, tôi thì thưòng xuyên ghi nhớ một đến ba giá trị hex để sử dụng nhanh chóng khi xây dựng 1 website. Với Sass chúng ta có thể khai báo các giá trị màu sắc đó bằng một biến. Và một biến chỉ được khai báo một giá trị mà thôi. </p>
 
-	Chẳng hạn như khai báo 3 biến màu sắc tưong ứng sau:
+<i>Chẳng hạn như khai báo 3 biến màu sắc tưong ứng sau:</i>
 
 ```bash
 	$red: #ff0b13;
