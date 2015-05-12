@@ -1,7 +1,5 @@
 ## [Exbook: sass and compass for designer. (tiếng việt)](https://github.com/ngnam/learn-sass-and-compass-for-designer)
 
-----
-
 #### [# Chương 1: Làm quen với sass, compass](https://github.com/ngnam/learn-sass-and-compass-for-designer/blob/master/Chapter1.md)
 
 **Trong chương này bạn sẽ học đưọc**
