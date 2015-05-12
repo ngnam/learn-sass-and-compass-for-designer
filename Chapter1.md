@@ -1,19 +1,15 @@
-"Bạn có thể bất cứ điều gì, chỉ cần bạn có một lòng quyết tâm và không sợ những khó khắn,
-cho dù bạn là ai, bạn đang làm gì, bạn đang sống ở đâu..." ~~ ngnam
-
 # [ Exbook: sass and compass for designer. (tiếng việt) ](https://github.com/ngnam/learn-sass-and-compass-for-designer)
 
-
-## chương 1: bắt đầu sử dụng sass
+## ![ Chương 1: Bắt đầu sử dụng sass ](https://github.com/ngnam/learn-sass-and-compass-for-designer/blob/master/Chapter1.md)
 
 ### Ghi nhớ, trong chương này bạn sẽ học đưọc:
 
-- Tại sao cần css preprocessors.
-- Tại sao nên sử dụng sass và compass.
-- Sass là gì.
-- Compass là gì và cách sử dụng nó để relates to sass.
-- Hướng dẫn cài đặt sass và compass trên OSX và windows.
-- Tại sao không sử dụng một công cụ đồ họa mà lại cần tới command line.
+1. Tại sao cần css preprocessors.
+1. Tại sao nên sử dụng sass và compass.
+1. Sass là gì.
+1. Compass là gì và cách sử dụng nó để relates to sass.
+1. Hướng dẫn cài đặt sass và compass trên OSX và windows.
+1. Tại sao không sử dụng một công cụ đồ họa mà lại cần tới command line.
 
 ' -----------------------------------------------------------
 
@@ -53,27 +49,33 @@ cho dù bạn là ai, bạn đang làm gì, bạn đang sống ở đâu..." ~~ 
 
 	Chẳng hạn như khai báo 3 biến màu sắc tưong ứng sau:
 
-		$red: #ff0b13;
+```bash
+	$red: #ff0b13;
 
-		$blue: #091fff;
+	$blue: #091fff;
 
-		$green: #11c909;
+	$green: #11c909;
+```
 
-## Understanding cú pháp trong khai báo biến
+## Làm quen với cú pháp trong khai báo biến
 
 	Giống như quy tắc đặt tên biến thông thường, tên biến gồm tiền tố '$', bắt đầu là các ký tự chữ cái, không có khoảng trống. Sau đó, tên biến được khai báo sau giá trị thuộc tính trong css. Trong ví dụ sau, biến $green sẽ khai báo màu green cho thuộc tính color. 
 
 	// code trong file .scss
 	
-	.Toi_muon_mau_green {
-		color: $green;
-	}
+```bash
+.Toi_muon_mau_green {
+	color: $green;
+}
+```
 
 	// code css sinh ra:
-
-	.Toi_muon_mau_green {
-		color: #11c909;
-	} 
+	
+```bash
+.Toi_muon_mau_green {
+	color: #11c909;
+} 
+```
 
 ### Ghi nhớ: 
 
@@ -238,52 +240,68 @@ download.php/76054/rubyinstaller-1.9.3-p194.exe sau đó cài đặt bình thư�
 
 		+ linux\OS-X: 
 
-			sudo gem install compass
+```bash
+sudo gem install compass
+```
 
 		+ windows: 
 
-			gem install compass
+```bash
+gem install compass
+```
 
 ### Kiểm tra phiên bản hiện tại:
 
-	sass -v 
+```bash
+sass -v 
 
-	compass -v
+compass -v
+```
 
 ### Kiểm tra các phiên bản sass và compass đang có trên máy chủ:
 
-	gem list sass -a -r
+```bash
+gem list sass -a -r
 
-	gem list compass -a -r
+gem list compass -a -r
+```
 
 ### Cài đặt phiên bản cũ hơn:
 
-	sudo gem install sass
+```bash
+sudo gem install sass
 
-	sass -v
+sass -v
 
-	sudo gem install sass --pre
+sudo gem install sass --pre
+```
+	
+```bash
+sudo gem install compass
 
-	---------
+compass -v
 
-	sudo gem install compass
-
-	compass -v
-
-	sudo gem install compass --pre
+sudo gem install compass --pre
+```
 
 ### Gỡ cài đặt
 
-	gem uninstall sass --version versionnumber
-	
-	gem uninstall compass --version versionnumber
-
+```bash
+gem uninstall sass --version versionnumber
+```
+```bash
+gem uninstall compass --version versionnumber
+```
 
 ### Tạo mới projects sass và  compass
 
-	cd dir_project
+```bash
+cd dir_project
+```
 
-	compass create my-project
+```bash
+compass create my-project
+```
 
 <img src="https://github.com/ngnam/learn-sass-and-compass-for-designer/blob/master/images/my-project.png" alt="my-project" width="500" height="300">
 
@@ -297,7 +315,7 @@ download.php/76054/rubyinstaller-1.9.3-p194.exe sau đó cài đặt bình thư�
 
 ### Graphical tools for working with Sass and Compass
 
-		- [Scout app](http://mhs.github.com/scout-app)
-		
-		- [CodeKit]()
+	- [Scout app](http://mhs.github.com/scout-app)
+	
+	- ![CodeKit](Công cụ này có phí :D chắc chả ai dám sài.)
 	
