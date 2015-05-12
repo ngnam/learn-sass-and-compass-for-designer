@@ -62,29 +62,29 @@ Chúng ta đều biết rằng có một só lượng lớn các tổ chức nh�
 * Trong sass, 2 định dạng file quen thuộc là scss và sass. 
 * Việc viết và nhớ các giá trị tên biến thì đơn giản và nhanh hơn việc nhớ các giá trị mã hex đó. Ngoài ra, khi ta cần thay đổi giá trị màu sắc, ta chỉ cần thay đổi tên biến mà không cần phải tìm và thay thế bằng một giá trị do các design đặt ra.
 
-#### Giá trị màu RGBA tự động và chuyển đổi
+#### Tự động và chuyển đổi Giá trị màu RGBA 
 RGBA (Red Green Blue Alpha) and HSLA (Hue Saturation Lightness Alpha) là 2 chuẩn màu đã được hỗ trợ hầu hết trên trình duyệt ngày nay. Sắp xếp theo trình duyệt cũ thì độ tương thích của các giá trị mã màu là: Hex color, sau đó là RGBA color hoặc HSLA color. Điều đó có nghĩa là với những trình duyệt mới hơn thì nên sử dụng mã RGBA\HSLA còn với những trình duyệt cũ thì nên sử dụng mã HEX.
 
 - Nếu sử dụng các phần mềm như photoshop, fireworks, .. thi việc khai báo giá thị color bằng các mã hex thì rất đơn giản:
 
-	.color-me-bad {
-		color: #11c909;
-		color: rgba(17, 201, 9, 0.9);
-	}
+		.color-me-bad {
+			color: #11c909;
+			color: rgba(17, 201, 9, 0.9);
+		}
 
 * Với Sass điều đó thực sự đơn giản:
 
-	.color-me-good {
-		color: $green;
-		color: rgba($green, 0.9);
-	}
+		.color-me-good {
+			color: $green;
+			color: rgba($green, 0.9);
+		}
 
 * khi complie nó sẽ sinh ra mã css:
 
-	.color-me-bad {
-		color: #11c909;
-		color: rgba(17, 201, 9, 0.9);
-	}
+		.color-me-bad {
+			color: #11c909;
+			color: rgba(17, 201, 9, 0.9);
+		}
 
 **Bây giờ chỉ cần nhớ tên biến để sử dụng sẽ đơn giản hơn rất nhiều.**
 
@@ -93,19 +93,19 @@ Tôi là một trong những người ưa thích CSS3. Trước đây tôi thư�
 
 * Bo tròn các góc cho class rounded
 
-	.rounded {
-		-webkit-border-radius: 4px;
-		-moz-border-radius: 4px;
-		-ms-border-radius: 4px;
-		-o-border-radius: 4px;
-		border-radius: 4px;
-	}
+		.rounded {
+			-webkit-border-radius: 4px;
+			-moz-border-radius: 4px;
+			-ms-border-radius: 4px;
+			-o-border-radius: 4px;
+			border-radius: 4px;
+		}
 
 * Với Sass, compass cung cấp một công cụ miễn phí 'mixins', với yêu cầu trên ta chỉ cần dòng sau:
 
-	.rounded {
-		@include border-radius(4px);
-	}
+		.rounded {
+			@include border-radius(4px);
+		}
 
 **Sass, compass giúp ta tiết kiệm được thời gian xây dựng, số dòng code.**
 
@@ -114,66 +114,66 @@ Sass cho phép các nguyên tắc được lồng trong nhau.
 
 * Chẳng hạn như ta muốn viết css cho thẻ a ở trong thẻ nav và css hover, active cho thẻ a , ta nên viết như sau:
 
-	nav {
-		a {
-			color: $red;
-			&:hover {
-				color: $green;
-			}
-			&:active {
-				color: $blue;
+		nav {
+			a {
+				color: $red;
+				&:hover {
+					color: $green;
+				}
+				&:active {
+					color: $blue;
+				}
 			}
 		}
-	}
 
 * css sinh ra:
 
-	nav a {
-		color: #ff0b13;
-	}
+		nav a {
+			color: #ff0b13;
+		}
 
-	nav a:hover {
-	 color: #11c909;
-	}
+		nav a:hover {
+		 color: #11c909;
+		}
 
-	nav a:active {
-		color: #091fff;
-	}
+		nav a:active {
+			color: #091fff;
+		}
 
 #### Media queries the simple way
 Hầu hết trang web ngày nay nên viết reponsive để có thể hoạt động tốt trên nhiều thiết bị khác nhau.
 
 * Đoạn css sau: (font-size của thẻ h1 sẽ thay đổi cho phù hợp với từng loại màn hình khác nhau)
 
-	@media only screen and (min-width: 280px) and (max-width: 479px) {
-		.h1 {
-			font-size: 1.1em;
+		@media only screen and (min-width: 280px) and (max-width: 479px) {
+			.h1 {
+				font-size: 1.1em;
+			}
 		}
-	}
-	@media only screen and (min-width: 480px) and (max-width: 599px) {
-		.h1 {
-			font-size: 1em;
+		@media only screen and (min-width: 480px) and (max-width: 599px) {
+			.h1 {
+				font-size: 1em;
+			}
 		}
-	}
-	@media only screen and (min-width: 600px) and (max-width: 767px) {
-		.h1 {
-			font-size: 0.9em;
+		@media only screen and (min-width: 600px) and (max-width: 767px) {
+			.h1 {
+				font-size: 0.9em;
+			}
 		}
-	}
 
 * Với Sass, ta sẽ khai báo các biến với độ rộng tưong ứng với từng màn hình để hiển thị, sau đó gọi chúng ra như sau:
 
-	h1 {
-		@include MQ(XS) {
-			font-size: 1.1em;
+		h1 {
+			@include MQ(XS) {
+				font-size: 1.1em;
+			}
+			@include MQ(S) {
+				font-size: 1em;
+			}
+			@include MQ(M) {
+				font-size: 0.9em;
+			}
 		}
-		@include MQ(S) {
-			font-size: 1em;
-		}
-		@include MQ(M) {
-			font-size: 0.9em;
-		}
-	}
 
 #### Làm quen với compass để complie css
 
@@ -219,9 +219,8 @@ Với những người sử dụng windows, chỉ cần tải gói
 
 #### # Kiểm tra các phiên bản sass và compass đang có trên máy chủ:
 
-	gem list sass -a -r
-
-	gem list compass -a -r
+`$ gem list sass -a -r`
+`gem list compass -a -r`
 
 #### # Cài đặt phiên bản cũ hơn:
 
