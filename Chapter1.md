@@ -255,5 +255,10 @@ Với những người sử dụng windows, chỉ cần tải gói
 
 - Scout app (http://mhs.github.com/scout-app)
 
-- CodeKit (Công cụ này có phí :D chắc chả ai dám sài.)
+- CodeKit (Công cụ này có phí.)
+
+#### # Text editor
+
+* subline text
+* webstorm
 
