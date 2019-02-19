@@ -3,6 +3,8 @@
 
 *[Tham khảo http://sassandcompass.com](http://sassandcompass.com/)*
 
+*[Architecture SCSS](https://smacss.com/)*
+
 *Đôi điều tâm sự*
 
 > *"Bạn có thể bất cứ điều gì, chỉ cần bạn có một lòng quyết tâm và không sợ những khó khắn, cho dù bạn là ai, bạn đang làm gì, bạn đang sống ở đâu"*
